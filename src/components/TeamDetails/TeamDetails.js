@@ -36,6 +36,7 @@ const TeamDetails = (props) => {
                   Explore
                   <FontAwesomeIcon
                     className="button"
+                    // eslint-disable-next-line no-sequences
                     icon={(fas, faArrowRight)}
                   />
                 </Button>
