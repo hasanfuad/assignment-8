@@ -54,7 +54,7 @@
   position: relative;
   top: 2rem;
   left: 36rem;
-  line-height: 1.7;
+  line-height: 1.8;
   text-align: justify;
   /* height: 300px; */
 }
@@ -66,25 +66,24 @@
 
 /* Footer  */
 
-.footer-icon{
+.footer-icon {
   text-align: center;
   padding: 40px;
 }
 
-span{
+span {
   padding: 10px;
 }
 
-.social-icon1{
+.social-icon1 {
   background-color: white;
   border-radius: 80%;
 }
-.social-icon2{
+.social-icon2 {
   background-color: white;
   border-radius: 80%;
 }
-.social-icon3{
+.social-icon3 {
   background-color: white;
   border-radius: 80%;
 }
-

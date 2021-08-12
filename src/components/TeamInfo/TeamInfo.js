@@ -27,6 +27,7 @@ const TeamInfo = () => {
         <div className="info-image">
           <img src={teamInfo.strTeamBadge} alt={teamInfo.strTeamBadge} />
         </div>
+
         {/* Info Area  */}
         <div className="info-area">
           <div className="info-area-text">
@@ -34,7 +35,7 @@ const TeamInfo = () => {
             <p>Founded: {teamInfo.intFormedYear}</p>
             <p>Sports type: {teamInfo.strSport}</p>
             <p>Gender: {teamInfo.strGender}</p>
-            <Link style={{textDecoration:"none", color: "gray"}} to="/home">
+            <Link style={{ textDecoration: "none", color: "gray" }} to="/home">
               <p>back to home</p>
             </Link>
           </div>
@@ -44,6 +45,7 @@ const TeamInfo = () => {
         </div>
         {/* Info Area End  */}
       </div>
+
       {/* Description Area  */}
       <div className="info-description">
         <div className="info-description-1">
@@ -55,9 +57,18 @@ const TeamInfo = () => {
       </div>
       {/* Description Area End  */}
       <footer className="footer-icon">
-        <span><SocialIcon className="social-icon1" url="https://twitter.com/" /></span>
-        <span><SocialIcon className="social-icon2" url="https://facebook.com/" /></span>
-        <span><SocialIcon className="social-icon3" url="https://www.youtube.com/c/" /></span>
+        <span>
+          <SocialIcon className="social-icon1" url="https://twitter.com/" />
+        </span>
+        <span>
+          <SocialIcon className="social-icon2" url="https://facebook.com/" />
+        </span>
+        <span>
+          <SocialIcon
+            className="social-icon3"
+            url="https://www.youtube.com/c/"
+          />
+        </span>
       </footer>
     </div>
   );

@@ -15,7 +15,7 @@ const Home = () => {
   }, []);
   return (
     <div className="home-bg">
-        <h1 className="main-title">Football Team Bazar</h1>
+      <h1 className="main-title">Football Team Bazar</h1>
       <div className="container mt-5">
         {team.map((teamData) => (
           <TeamDetails key={teamData.idTeam} teamData={teamData} />

@@ -34,7 +34,10 @@ const TeamDetails = (props) => {
               <Link to={`/teamInfo/${idTeam}`}>
                 <Button variant="primary">
                   Explore
-                  <FontAwesomeIcon className="button" icon={(fas, faArrowRight)} />
+                  <FontAwesomeIcon
+                    className="button"
+                    icon={(fas, faArrowRight)}
+                  />
                 </Button>
               </Link>
             </Card.Body>

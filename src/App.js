@@ -5,10 +5,9 @@ import Home from "./components/Home/Home";
 import NotFound from "./components/NotFound/NotFound";
 import TeamInfo from "./components/TeamInfo/TeamInfo";
 
-import image from "./components/Home/stadium1.jpg"
+import image from "./components/Home/stadium1.jpg";
 
 function App() {
-
   return (
     <div className="App">
       <div className="top-banner">
