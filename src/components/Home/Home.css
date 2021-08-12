@@ -1,0 +1,25 @@
+
+
+.home-bg{
+  background-color: rgb(2, 2, 41);
+  height: 130rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-gap: 50px;
+}
+
+.main-title{
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 16rem;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+
+
+

@@ -1,0 +1,22 @@
+
+
+.container-element{
+    width: 15rem;
+    margin-left: 200px;
+}
+
+.card-element {
+    text-align: center;
+    color: black;
+}
+
+.card-image{
+    position: relative;
+    left: 5rem;
+    top: 15px;
+}
+
+.button{
+    margin-left: 10px;
+    font-size: 14px;
+}
